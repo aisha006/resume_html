@@ -1,15 +1,15 @@
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color: #C2DFFF;
+    background-color: #032626;
     min-height: 200%;
 }
 
 .page {
-    background-color: #FFFFFF;
-    height: 103%;
+    background-color: #000;
+    height: 85%;
     width: 750px;
     margin: 0 auto;
     box-shadow: 4px 3px 8px 1px #B4CFEC;
@@ -17,7 +17,7 @@ body {
 }
 
 div.left {
-    height: 90.2%;
+    height: 85.5%;
     width: 40%;
     background-color: #ffffff;
     float: left;
@@ -94,7 +94,17 @@ div.education {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+div.work {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.img-bottom {
+	padding-left: 20px;
+}
+div.h1{
+	border-bottom: 1px solid #000;
+	border-bottom-width: 5px;
+}
 dl {
 	border-left: 5px solid #000;
 	padding-left: 10px;
@@ -134,4 +144,8 @@ img.rounded-img:hover {
 p#objective {
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.footer {
+    color: #ffc0cb;
 }
