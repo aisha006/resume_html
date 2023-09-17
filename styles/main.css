@@ -1,3 +1,8 @@
+clamp(clamp(100%/(N + 1) + 0.1%, (W1 - 100vw)*1000,100%/(M + 1) + 0.1%), (W2 - 100vw)*1000, 100%)
+
+    
+
+
 html {
     font-family: 'Times New Roman', Times, serif;
 }
